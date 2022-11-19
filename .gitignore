@@ -1,3 +1,6 @@
+build
+.Ds-store
+
 # Logs
 logs
 *.log
