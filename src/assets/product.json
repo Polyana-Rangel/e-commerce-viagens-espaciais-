@@ -1,0 +1,68 @@
+
+
+[
+    {
+        "id": "1",
+        "name": "Júpiter",
+        "rating": "5.0",
+        "price": "11230",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+        "imageAlt": "júpter "
+    },
+    {
+        "id": "2",
+        "name": "Lua",
+        "rating": "3.0",
+        "price": "12090",
+        "imageUrl": "https://img.olhardigital.com.br/wp-content/uploads/2022/08/fotografia-lua-detalhada.jpg",
+        "imageAlt": "lua"
+    },
+    {
+        "id": "3",
+        "name": "Saturno",
+        "rating": "4.7",
+        "price": "23451",
+        "imageUrl": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/0f0d865207019b9ec3e29ecc22be0e17.jpg",
+        "imageAlt": "saturno"
+    },
+    {
+        "id": "4",
+        "name": "Urano",
+        "rating": "4.5",
+        "price": "9678",
+        "imageUrl": "https://realidadesimulada.com/wp-content/uploads/2017/09/Urano.jpg",
+        "imageAlt": "urano"
+    },
+    {
+        "id": "5",
+        "name": "Marte",
+        "rating": "5.0",
+        "price": "76453",
+        "imageUrl": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/8465a67d00eda6b73b4485921e5fac7a.jpg",
+        "imageAlt": "marte"
+    },
+    {
+        "id": "6",
+        "name": "Plutão",
+        "rating": "3.9",
+        "price": "23123",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/280px-Pluto_in_True_Color_-_High-Res.jpg",
+        "imageAlt": "plutao"
+    },
+    {
+        "id": "7",
+        "name": "Vênus",
+        "rating": "5.0",
+        "price": "98762",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg/800px-PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg",
+        "imageAlt": "venus"
+    },
+    {
+        "id": "8",
+        "name": "Netuno",
+        "rating": "4.8",
+        "price": "98761",
+        "imageUrl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcT9RN79wn9Nw-Bt_dn2TjGwLmVo7kxccffCzGa6e1onKI_QyOinDXZ-MMqL_McsRcR1",
+        "imageAlt": "netuno"
+    }
+]
