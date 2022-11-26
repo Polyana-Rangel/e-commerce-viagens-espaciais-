@@ -4,6 +4,7 @@ import { Main } from "./TelaDeProduto.styled"
 
 function TelaDeProdutos(props) {
 
+const {addToCart}=props
   return (
     <Main >
 
@@ -12,11 +13,15 @@ function TelaDeProdutos(props) {
         <hr/>
         {
           products
-            // .filter((produtc)=>produtc.name.toLowerCase().includes("L".toLowerCase()))
-            // .filter((produtc)=>produtc.price >= 8000)
+         
             .map((product) => (
 
-              <ProductCard product={product} key={product.id} />
+              <ProductCard 
+              product={product} 
+              key={product.id}
+              addToCart={addToCart}
+              isOnProductsScreen={true}
+              />
             ))
         }
       </section>

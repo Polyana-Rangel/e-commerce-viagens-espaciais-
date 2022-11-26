@@ -1,11 +1,28 @@
+import ProductCard from "../ProductCard/ProductCard";
+import { Main } from "./CartTela.styled";
+
+
 function CartTela(props) {
 
+  const{cart} = props
+
   return (
-    <div >
+    <Main >
 
-      <h1>CartTela</h1>
+      <section>
+        <h1>Tela de carrinhos </h1>
+        <hr />
+        {
+          cart.map((product) => (
 
-    </div>
+              <ProductCard product={product} key={product.id}   isOnCartScreen={true} />
+            ))
+        }
+      </section>
+
+
+
+    </Main>
   );
 }
 
